@@ -1,0 +1,15 @@
+{
+  "name": "lerna-nextjs-styled-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd packages/next-frontend && npm run dev",
+    "components": "cd packages/components && npm run babel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
+}
